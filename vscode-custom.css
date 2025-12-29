@@ -1,0 +1,159 @@
+/* 圆角相关 */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab {
+  border-radius: 6px;
+}
+.suggest-input-container,
+.monaco-list-row,
+.monaco-text-button,
+.monaco-inputbox,
+.scm-view .scm-editor,
+.monaco-scrollable-element > .scrollbar > .slider,
+.xterm .xterm-scrollable-element > .scrollbar > .slider {
+  border-radius: 4px;
+}
+.monaco-button-dropdown > .monaco-button.monaco-text-button {
+  border-radius: 4px 0 0 4px;
+}
+.monaco-button-dropdown > .monaco-button.monaco-dropdown-button {
+  border-radius: 0 4px 4px 0;
+}
+
+/* activitybar 相关 */
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item {
+  padding: 6px;
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-label {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-label:not(.codicon) {
+  line-height: 36px;
+  padding: 0 0 0 36px;
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item.checked
+  > .action-label {
+  background-color: var(--vscode-tab-activeBackground);
+}
+
+/* tab 相关 */
+.title.tabs.show-file-icons {
+  --editor-group-tab-height: 27px !important;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container {
+  padding: 4px 0;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab {
+  margin-right: 2px;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .editor-actions {
+  padding: 4px 8px 4px 4px;
+}
+
+/* 悬浮窗相关 */
+.monaco-editor .monaco-hover,
+.monaco-editor .monaco-resizable-hover {
+  border-radius: 6px;
+  box-shadow: 0 0 4px 1px var(--vscode-widget-shadow);
+}
+.monaco-editor .monaco-resizable-hover > .monaco-hover {
+  box-shadow: none;
+}
+.action-widget,
+.quick-input-widget,
+.standalone-colorpicker,
+.monaco-editor .monaco-hover,
+.monaco-hover.workbench-hover,
+.workbench-hover-pointer:after,
+.monaco-editor .token-inspect-widget,
+.monaco-editor .parameter-hints-widget,
+.monaco-editor .monaco-editor-overlaymessage .message,
+.monaco-select-box-dropdown-container > .select-box-dropdown-list-container,
+.monaco-select-box-dropdown-container > .select-box-details-pane,
+.monaco-editor .inlineSuggestionsHints.withBorder {
+  backdrop-filter: blur(6px);
+}
+.quick-input-widget .monaco-list.list_id_5 .monaco-list-rows {
+  background: unset;
+}
+
+.monaco-workbench
+  .pane-composite-part
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item {
+  margin-right: 2px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.monaco-workbench
+  .pane-composite-part
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.checked {
+  background-color: var(--vscode-tab-activeBackground) !important;
+}
+.monaco-workbench
+  .pane-composite-part
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar {
+  line-height: 16px;
+}
+.monaco-workbench
+  .pane-composite-part
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.icon {
+  padding: 0 2px;
+  height: 24px;
+}
