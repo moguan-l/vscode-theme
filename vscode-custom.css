@@ -8,6 +8,9 @@
   > .tab {
   border-radius: 6px;
 }
+.quick-input-widget {
+  border-radius: 8px;
+}
 .suggest-input-container,
 .monaco-list-row,
 .monaco-text-button,
@@ -95,8 +98,8 @@
 /* 悬浮窗相关 */
 .monaco-editor .monaco-hover,
 .monaco-editor .monaco-resizable-hover {
-  border-radius: 6px;
-  box-shadow: 0 0 4px 1px var(--vscode-widget-shadow);
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px var(--vscode-widget-shadow);
 }
 .monaco-editor .monaco-resizable-hover > .monaco-hover {
   box-shadow: none;
