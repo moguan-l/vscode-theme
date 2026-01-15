@@ -98,6 +98,7 @@
 /* 悬浮窗相关 */
 .monaco-editor .monaco-hover,
 .monaco-editor .monaco-resizable-hover {
+  overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 0 8px 2px var(--vscode-widget-shadow);
 }
